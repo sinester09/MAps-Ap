@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E22D25D225E862CC00E1A521 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22D25D125E862CC00E1A521 /* AppDelegate.swift */; };
+		E22D25D425E862CC00E1A521 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22D25D325E862CC00E1A521 /* SceneDelegate.swift */; };
+		E22D25D625E862CC00E1A521 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22D25D525E862CC00E1A521 /* ContentView.swift */; };
+		E22D25D825E862D100E1A521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22D25D725E862D100E1A521 /* Assets.xcassets */; };
+		E22D25DB25E862D100E1A521 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22D25DA25E862D100E1A521 /* Preview Assets.xcassets */; };
+		E22D25DE25E862D100E1A521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22D25DC25E862D100E1A521 /* LaunchScreen.storyboard */; };
+		E22D25E925E862D100E1A521 /* ALOMApsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22D25E825E862D100E1A521 /* ALOMApsTests.swift */; };
+		E22D25F425E862D100E1A521 /* ALOMApsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22D25F325E862D100E1A521 /* ALOMApsUITests.swift */; };
+		E2552EB825E8684400CBA78D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2552EB725E8684400CBA78D /* MapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E22D25E525E862D100E1A521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E22D25C625E862CC00E1A521 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E22D25CD25E862CC00E1A521;
+			remoteInfo = ALOMAps;
+		};
+		E22D25F025E862D100E1A521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E22D25C625E862CC00E1A521 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E22D25CD25E862CC00E1A521;
+			remoteInfo = ALOMAps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E22D25CE25E862CC00E1A521 /* ALOMAps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALOMAps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22D25D125E862CC00E1A521 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E22D25D325E862CC00E1A521 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E22D25D525E862CC00E1A521 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E22D25D725E862D100E1A521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E22D25DA25E862D100E1A521 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E22D25DD25E862D100E1A521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E22D25DF25E862D100E1A521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E22D25E425E862D100E1A521 /* ALOMApsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALOMApsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22D25E825E862D100E1A521 /* ALOMApsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALOMApsTests.swift; sourceTree = "<group>"; };
+		E22D25EA25E862D100E1A521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E22D25EF25E862D100E1A521 /* ALOMApsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALOMApsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22D25F325E862D100E1A521 /* ALOMApsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALOMApsUITests.swift; sourceTree = "<group>"; };
+		E22D25F525E862D100E1A521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2552EB725E8684400CBA78D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E22D25CB25E862CC00E1A521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22D25E125E862D100E1A521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22D25EC25E862D100E1A521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E22D25C525E862CC00E1A521 = {
+			isa = PBXGroup;
+			children = (
+				E22D25D025E862CC00E1A521 /* ALOMAps */,
+				E22D25E725E862D100E1A521 /* ALOMApsTests */,
+				E22D25F225E862D100E1A521 /* ALOMApsUITests */,
+				E22D25CF25E862CC00E1A521 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E22D25CF25E862CC00E1A521 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E22D25CE25E862CC00E1A521 /* ALOMAps.app */,
+				E22D25E425E862D100E1A521 /* ALOMApsTests.xctest */,
+				E22D25EF25E862D100E1A521 /* ALOMApsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E22D25D025E862CC00E1A521 /* ALOMAps */ = {
+			isa = PBXGroup;
+			children = (
+				E22D25D125E862CC00E1A521 /* AppDelegate.swift */,
+				E22D25D325E862CC00E1A521 /* SceneDelegate.swift */,
+				E22D25D525E862CC00E1A521 /* ContentView.swift */,
+				E22D25D725E862D100E1A521 /* Assets.xcassets */,
+				E22D25DC25E862D100E1A521 /* LaunchScreen.storyboard */,
+				E22D25DF25E862D100E1A521 /* Info.plist */,
+				E22D25D925E862D100E1A521 /* Preview Content */,
+				E2552EB725E8684400CBA78D /* MapView.swift */,
+			);
+			path = ALOMAps;
+			sourceTree = "<group>";
+		};
+		E22D25D925E862D100E1A521 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E22D25DA25E862D100E1A521 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E22D25E725E862D100E1A521 /* ALOMApsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E22D25E825E862D100E1A521 /* ALOMApsTests.swift */,
+				E22D25EA25E862D100E1A521 /* Info.plist */,
+			);
+			path = ALOMApsTests;
+			sourceTree = "<group>";
+		};
+		E22D25F225E862D100E1A521 /* ALOMApsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E22D25F325E862D100E1A521 /* ALOMApsUITests.swift */,
+				E22D25F525E862D100E1A521 /* Info.plist */,
+			);
+			path = ALOMApsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E22D25CD25E862CC00E1A521 /* ALOMAps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E22D25F825E862D100E1A521 /* Build configuration list for PBXNativeTarget "ALOMAps" */;
+			buildPhases = (
+				E22D25CA25E862CC00E1A521 /* Sources */,
+				E22D25CB25E862CC00E1A521 /* Frameworks */,
+				E22D25CC25E862CC00E1A521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALOMAps;
+			productName = ALOMAps;
+			productReference = E22D25CE25E862CC00E1A521 /* ALOMAps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E22D25E325E862D100E1A521 /* ALOMApsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E22D25FB25E862D100E1A521 /* Build configuration list for PBXNativeTarget "ALOMApsTests" */;
+			buildPhases = (
+				E22D25E025E862D100E1A521 /* Sources */,
+				E22D25E125E862D100E1A521 /* Frameworks */,
+				E22D25E225E862D100E1A521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E22D25E625E862D100E1A521 /* PBXTargetDependency */,
+			);
+			name = ALOMApsTests;
+			productName = ALOMApsTests;
+			productReference = E22D25E425E862D100E1A521 /* ALOMApsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E22D25EE25E862D100E1A521 /* ALOMApsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E22D25FE25E862D100E1A521 /* Build configuration list for PBXNativeTarget "ALOMApsUITests" */;
+			buildPhases = (
+				E22D25EB25E862D100E1A521 /* Sources */,
+				E22D25EC25E862D100E1A521 /* Frameworks */,
+				E22D25ED25E862D100E1A521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E22D25F125E862D100E1A521 /* PBXTargetDependency */,
+			);
+			name = ALOMApsUITests;
+			productName = ALOMApsUITests;
+			productReference = E22D25EF25E862D100E1A521 /* ALOMApsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E22D25C625E862CC00E1A521 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Alonso Jose";
+				TargetAttributes = {
+					E22D25CD25E862CC00E1A521 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					E22D25E325E862D100E1A521 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = E22D25CD25E862CC00E1A521;
+					};
+					E22D25EE25E862D100E1A521 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = E22D25CD25E862CC00E1A521;
+					};
+				};
+			};
+			buildConfigurationList = E22D25C925E862CC00E1A521 /* Build configuration list for PBXProject "ALOMAps" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E22D25C525E862CC00E1A521;
+			productRefGroup = E22D25CF25E862CC00E1A521 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E22D25CD25E862CC00E1A521 /* ALOMAps */,
+				E22D25E325E862D100E1A521 /* ALOMApsTests */,
+				E22D25EE25E862D100E1A521 /* ALOMApsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E22D25CC25E862CC00E1A521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22D25DE25E862D100E1A521 /* LaunchScreen.storyboard in Resources */,
+				E22D25DB25E862D100E1A521 /* Preview Assets.xcassets in Resources */,
+				E22D25D825E862D100E1A521 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22D25E225E862D100E1A521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22D25ED25E862D100E1A521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E22D25CA25E862CC00E1A521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22D25D225E862CC00E1A521 /* AppDelegate.swift in Sources */,
+				E2552EB825E8684400CBA78D /* MapView.swift in Sources */,
+				E22D25D425E862CC00E1A521 /* SceneDelegate.swift in Sources */,
+				E22D25D625E862CC00E1A521 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22D25E025E862D100E1A521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22D25E925E862D100E1A521 /* ALOMApsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22D25EB25E862D100E1A521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22D25F425E862D100E1A521 /* ALOMApsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E22D25E625E862D100E1A521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E22D25CD25E862CC00E1A521 /* ALOMAps */;
+			targetProxy = E22D25E525E862D100E1A521 /* PBXContainerItemProxy */;
+		};
+		E22D25F125E862D100E1A521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E22D25CD25E862CC00E1A521 /* ALOMAps */;
+			targetProxy = E22D25F025E862D100E1A521 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E22D25DC25E862D100E1A521 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E22D25DD25E862D100E1A521 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E22D25F625E862D100E1A521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E22D25F725E862D100E1A521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E22D25F925E862D100E1A521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ALOMAps/Preview Content\"";
+				DEVELOPMENT_TEAM = R28LMGFB54;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ALOMAps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skysoftperu.ALoMaps.ALOMAps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E22D25FA25E862D100E1A521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ALOMAps/Preview Content\"";
+				DEVELOPMENT_TEAM = R28LMGFB54;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ALOMAps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skysoftperu.ALoMaps.ALOMAps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E22D25FC25E862D100E1A521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R28LMGFB54;
+				INFOPLIST_FILE = ALOMApsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skysoftperu.ALoMaps.ALOMApsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALOMAps.app/ALOMAps";
+			};
+			name = Debug;
+		};
+		E22D25FD25E862D100E1A521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R28LMGFB54;
+				INFOPLIST_FILE = ALOMApsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skysoftperu.ALoMaps.ALOMApsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALOMAps.app/ALOMAps";
+			};
+			name = Release;
+		};
+		E22D25FF25E862D100E1A521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R28LMGFB54;
+				INFOPLIST_FILE = ALOMApsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skysoftperu.ALoMaps.ALOMApsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ALOMAps;
+			};
+			name = Debug;
+		};
+		E22D260025E862D100E1A521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R28LMGFB54;
+				INFOPLIST_FILE = ALOMApsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skysoftperu.ALoMaps.ALOMApsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ALOMAps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E22D25C925E862CC00E1A521 /* Build configuration list for PBXProject "ALOMAps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22D25F625E862D100E1A521 /* Debug */,
+				E22D25F725E862D100E1A521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E22D25F825E862D100E1A521 /* Build configuration list for PBXNativeTarget "ALOMAps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22D25F925E862D100E1A521 /* Debug */,
+				E22D25FA25E862D100E1A521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E22D25FB25E862D100E1A521 /* Build configuration list for PBXNativeTarget "ALOMApsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22D25FC25E862D100E1A521 /* Debug */,
+				E22D25FD25E862D100E1A521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E22D25FE25E862D100E1A521 /* Build configuration list for PBXNativeTarget "ALOMApsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22D25FF25E862D100E1A521 /* Debug */,
+				E22D260025E862D100E1A521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E22D25C625E862CC00E1A521 /* Project object */;
+}
