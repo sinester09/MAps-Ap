@@ -12,11 +12,18 @@ import SwiftUI
 import MapKit
 import UIKit
 
+var quellaveco: MKPointAnnotation {
+    let annotation = MKPointAnnotation()
+    annotation.title = "mina Quellaveco"
+    annotation.subtitle = "campamento minero"
+    annotation.coordinate = CLLocationCoordinate2D(latitude:  -17.1044, longitude: -70.6236)
+    return annotation
+}
 
 struct MapView: UIViewRepresentable {
     @Binding var centerCoordinate: CLLocationCoordinate2D
     var annotations: [MKPointAnnotation]
-    
+   
     func makeUIView(context: Context) -> MKMapView {
         let mapView = MKMapView()
         mapView.delegate = context.coordinator
@@ -28,6 +35,7 @@ struct MapView: UIViewRepresentable {
         if annotations.count != view.annotations.count {
                view.removeAnnotations(view.annotations)
                view.addAnnotations(annotations)
+   
            }
     }
 
@@ -45,6 +53,7 @@ struct MapView: UIViewRepresentable {
         func mapViewDidChangeVisibleRegion(_ mapView: MKMapView) {
             parent.centerCoordinate = mapView.centerCoordinate
         }
+        
     }
     
 }
@@ -52,9 +61,9 @@ struct MapView: UIViewRepresentable {
 extension MKPointAnnotation {
     static var example: MKPointAnnotation {
         let annotation = MKPointAnnotation()
-        annotation.title = "London"
-        annotation.subtitle = "Home to the 2012 Summer Olympics."
-        annotation.coordinate = CLLocationCoordinate2D(latitude: 51.5, longitude: -0.13)
+        annotation.title = "mina Quellaveco"
+        annotation.subtitle = "campamento minero"
+        annotation.coordinate = CLLocationCoordinate2D(latitude:  -17.1044, longitude: -70.6236)
         return annotation
     }
 }
